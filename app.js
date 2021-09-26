@@ -90,8 +90,9 @@ async function repo() {
   if(data.length===0){
    alert("Enter Valid Username")
   }
-
-    appendData(data)
+ else{
+  appendData(data)
+  }
 
 }
 
