@@ -1,3 +1,4 @@
+
 /* Applying styles for div1 element */
 
 #f_div {
@@ -20,17 +21,20 @@
 /* div element styling*/
 .smallbox {
     /* border: 2px solid red; */
-    box-shadow: 0 2px 10px rgba(256, 256, 256, 0.4);
-    width: 68vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    min-width: 30vw;
+    border: solid 1px black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 20px; 
+    box-sizing: border-box;   
+    overflow-wrap: break-word;
     float:right;
     background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;   
+    overflow-wrap: break-word;
 
 }
 img {
@@ -51,6 +55,10 @@ img {
 body{
     background-color:rgb(211, 241, 211)
 }
+
+
+
+
 
 
 
