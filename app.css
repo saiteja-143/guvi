@@ -1,0 +1,35 @@
+
+#f_div {
+    padding-left: 35%;
+}
+#f_div{
+    background-color: burlywood;
+}
+#btn{
+    margin-left: 280px;
+}
+#lbl{
+    margin-left: 5%;
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#name{
+    box-decoration-break: slice;
+}
+.smallbox {
+    min-width: 30vw;
+    border: solid 5px green;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    float: right;
+    background-color: rgb(212, 207, 207);
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+}
+
+
