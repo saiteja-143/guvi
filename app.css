@@ -1,5 +1,22 @@
 
 
+
+
+
+
+
+
+@media (min-device-width:400px) {
+    img[data-src-400px] {
+        content: attr(data-src-400px, url);
+    }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
 /* Applying styles for div1 element */
 
 #f_div {
@@ -59,6 +76,9 @@ img {
 body{
     background-color:rgb(211, 241, 211)
 }
+
+
+
 
 
 
