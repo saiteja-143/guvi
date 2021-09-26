@@ -1,29 +1,37 @@
+/* Applying styles for div1 element */
 
 #f_div {
     padding-left: 35%;
-}
-#f_div{
     background-color: burlywood;
 }
+/* Button Styling */
 #btn{
-    margin-left: 280px;
-}
-#lbl{
-    margin-left: 5%;
-    font-size:50px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-#name{
-    box-decoration-break: slice;
-}
-.smallbox {
-    min-width: 30vw;
-    border: solid 5px green;
+    margin-left: 245px;
+    width: 10%;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
     text-align: center;
-    margin: 20px;
-    padding: 10px;
-    float: right;
-    background-color: rgb(212, 207, 207);
+    background-color:greenyellow
+}
+
+
+/* div element styling*/
+.smallbox {
+    /* border: 2px solid red; */
+    box-shadow: 0 2px 10px rgba(256, 256, 256, 0.4);
+    width: 68vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    float:right;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 img {
     width: 300px;
@@ -31,5 +39,18 @@ img {
     border-radius: 50%;
     float: left;
 }
+#h1{
+    padding-left: 10%;
+}
+#s_div{
+   
+    width:27%;
+    float:left;
+   
+}
+body{
+    background-color:rgb(211, 241, 211)
+}
+
 
 
