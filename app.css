@@ -6,6 +6,11 @@
 
 
 
+
+
+
+
+
 @media (min-device-width:400px) {
     img[data-src-400px] {
         content: attr(data-src-400px, url);
@@ -63,6 +68,8 @@ img {
     height: 300px;
     border-radius: 50%;
     float: left;
+    /* padding-left: 20%; */
+    margin-left: 10%;margin-top: 5%;
 }
 #h1{
     padding-left: 10%;
@@ -76,6 +83,9 @@ img {
 body{
     background-color:rgb(211, 241, 211)
 }
+
+
+
 
 
 
